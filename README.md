@@ -34,8 +34,11 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 
 ```cmd
-npm install
 npm run build
+```
+
+```cmd
+npm install
 ```
 
 ### Usage
