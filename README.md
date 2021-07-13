@@ -28,14 +28,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Download or clone this repo on your computer
-- Open your terminal in the project folder
+```cmd
+git clone https://github.com/usmansbk/repo_name.git
+cd ./repo_name
+```
 
 ### Install
-
-```cmd
-npm run build
-```
 
 ```cmd
 npm install
@@ -47,7 +45,17 @@ npm install
 npm start
 ```
 
+### Build
+
+```cmd
+npm run build
+```
+
 ### Run tests
+
+```cmd
+npm test
+```
 
 ## Authors
 
