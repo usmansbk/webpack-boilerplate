@@ -1,3 +1,38 @@
-body {
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Default Layout */
+body, #root {
   background-color: bisque;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-bar {
+  background-color: bisque;
+  padding: 8px 16px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.app-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-top: 48px;
+}
+
+.app-footer {
+  padding: 8px 16px;
 }
