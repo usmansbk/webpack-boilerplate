@@ -18,15 +18,13 @@ button {
 }
 
 /* Default Layout */
-body, #root {
-  background-color: bisque;
+#root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .app-bar {
-  background-color: bisque;
   padding: 8px 16px;
   position: fixed;
   width: 100%;
@@ -44,4 +42,9 @@ body, #root {
 
 .app-footer {
   padding: 8px 16px;
+}
+
+/* Colors */
+.bg-primary {
+  background-color: bisque;
 }
