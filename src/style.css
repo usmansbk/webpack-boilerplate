@@ -25,11 +25,11 @@ button {
 }
 
 .app-bar {
-  padding: 8px 16px;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
+  height: 80px;
 }
 
 .app-body {
@@ -37,14 +37,33 @@ button {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  margin-top: 48px;
+  margin-top: 80px;
 }
 
 .app-footer {
   padding: 8px 16px;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: 0 16px;
+  height: 100%;
+}
+
+.logo {
+  height: 40px;
+}
+
 /* Colors */
 .bg-primary {
   background-color: bisque;
+}
+
+.bg-primary-dark {
+  background-color: brown;
+}
+
+.text-white {
+  color: white;
 }
