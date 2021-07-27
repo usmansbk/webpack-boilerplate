@@ -1,12 +1,4 @@
+import root from '../root.html';
 import '../style.css';
 
-const component = () => {
-  const element = document.createElement('div');
-
-  element.innerHTML = 'Welcome to Microverse';
-  element.classList.add('hello');
-
-  return element;
-};
-
-document.body.appendChild(component());
+document.body.innerHTML = root;
