@@ -8,6 +8,10 @@ li {
   list-style-type: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* Default Layout */
 body, #root {
   background-color: bisque;
